@@ -1,0 +1,22 @@
+@startuml
+start
+: Ввод N;
+switch(N)
+case (1)
+: H = Понедельник;
+case (2)
+: H = Вторник;
+case (3)
+: H = Среда;
+case (4)
+: H = Четверг;
+case (5)
+: H = Пятница;
+case (6)
+: H = Суббота;
+case (7)
+: H = Воскресенье;
+endswitch
+:Вывод H;
+stop
+@enduml
