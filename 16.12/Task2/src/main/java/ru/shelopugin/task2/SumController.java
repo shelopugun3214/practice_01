@@ -26,6 +26,18 @@ public class SumController {
     @FXML
     void sumButtonOnAction(ActionEvent event) {
 
+        float a = Float.parseFloat(aTextField.getText());
+        float b = Float.parseFloat(bTextField.getText());
+        float c = Float.parseFloat(cTextField.getText());
+
+        if ((a < c && c < b) || (b < c && c < a)) { //Проверка положения C
+            float ac = Math.abs(a - c);
+            float bc = Math.abs(b - c);
+            float result = ac * bc;
+            resLabel.setText("Результат: " + result);
+        } else {
+            resLabel.setText("Ошибка: C не между A и B");
+        }
     }
 
 }

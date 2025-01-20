@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.shelopugin</groupId>
-    <artifactId>Task2</artifactId>
+    <artifactId>task2</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>Task2</name>
+    <name>task2</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
